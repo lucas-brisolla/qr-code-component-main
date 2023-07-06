@@ -78,7 +78,7 @@
 
 ## Links
 
-- Live Site URL: [](https://lucas-brisolla.github.io/qr-code-component-main/)
+- Live Site URL: https://lucas-brisolla.github.io/qr-code-component-main/
 
 ## Built with
 
