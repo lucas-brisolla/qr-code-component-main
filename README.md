@@ -18,10 +18,10 @@
 
   ## Screenshot
     HTML 
- - [](./design/html-screenshot.png)
+ - ./design/html-screenshot.png
 
     CSS
- - [](./design/css-screenshot.png)
+ - ./design/css-screenshot.png
 
 
 ## Links
