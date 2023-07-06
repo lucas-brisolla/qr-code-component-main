@@ -16,12 +16,64 @@
 
 ## My solution
 
-  ## Screenshot
-    HTML 
- - ./design/html-screenshot.png
+ ```html
+    <div class="container">
+    <div class="box">
+      <img class="qr-code-img" src="images/image-qr-code.png" alt="">
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
+  ```
+  ```css
+    @charset "UTF-8";
 
-    CSS
- - ./design/css-screenshot.png
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+    *{
+    margin: 0;
+    padding: 0;
+    }
+
+    body{
+    background-color: #D5E1EF;
+    }
+
+
+    .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+    .box{
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    font-family: 'Outfit', sans-serif;
+    }
+
+    .box > h1{
+    font-size: 22px;
+    margin: 15px;
+    color: #1f3251;
+    }
+
+    .box > p{
+    font-size: 15px;
+    margin: 15px;
+    color: #7b879d;
+    }
+
+    img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    }
+```
 
 
 ## Links
